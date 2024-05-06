@@ -1,0 +1,44 @@
+https://blog.expo.dev/the-new-expo-cli-f4250d8e3421 -> expo site
+
+expo upgrade ->  
+D:\Miguel - 3DS\TCC\Urbaniza>expo upgrade
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│   There is a new version of expo-cli available (6.3.10).                │
+│   You are currently using expo-cli 6.3.9                                │
+│   Install expo-cli globally using the package manager of your choice;   │
+│   for example: `npm install -g expo-cli` to get the latest version      │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   This version of expo-cli is not supported anymore.                      │
+│   It's highly recommended to update to the newest version.                │
+│                                                                           │
+│   The API endpoints used in this version of expo-cli might not exist,     │
+│   any interaction with Expo servers may result in unexpected behaviour.   │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+Warning! Your git working tree is dirty.
+It's recommended to commit all your changes before proceeding, so you can revert the changes made by this command if necessary.
+
+√ Would you like to proceed? ... yes
+
+We found an existing expo-cli instance running for this project and closed it to continue.
+
+√ You are already using the latest SDK version. Do you want to run the update anyways? This may be useful to ensure that all of your packages are set to the correct version. ... yes
+
+√ Validated configuration.
+√ No additional changes necessary to app.json config.
+
+× Failed to upgrade JavaScript devDependencies: @babel/core@^7.20.0
+× Failed to upgrade JavaScript dependencies: expo-status-bar@~1.11.1 react@18.2.0 react-native@0.73.6 react-native-web@~0.19.6
+√ Updated known packages to compatible versions.
+√ Removed package-lock.json and deleted node_modules.
+× Running npm install failed. Please check npm-error.log for more information.
+× Failed to clear packager cache with error: Can't read JSON file: D:\Miguel - 3DS\TCC\Urbaniza\node_modules\expo\package.json
+├─ File: D:\Miguel - 3DS\TCC\Urbaniza\node_modules\expo\package.json
+└─ Cause: Error: ENOENT: no such file or directory, open 'D:\Miguel - 3DS\TCC\Urbaniza\node_modules\expo\package.json'
+√ Cleared packager cache.
+√ Validated project
